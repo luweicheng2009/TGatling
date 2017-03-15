@@ -1,0 +1,4 @@
+RUN	XKTest		xktest	1489048833458	 	2.0
+USER	wlu dcm	1	START	1489048845696	1489048845696
+REQUEST	wlu dcm	1		partsPrice	1489048847396	1489048854786	KO	jsonPath($.littleRepairPackage).findAll.exists, found nothing
+USER	wlu dcm	1	END	1489048845696	1489048855380

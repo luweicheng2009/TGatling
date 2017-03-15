@@ -1,0 +1,4 @@
+RUN	XKTest		xktest	1489030485356	 	2.0
+USER	wlu dcm	1	START	1489030487727	1489030487727
+REQUEST	wlu dcm	1		partsPrice	1489030487798	1489030495655	KO	jsonPath($..[*].littleRepairPackage).findAll.exists failed, could not extract:  could not extract : string matching regex `[$_\d\p{L}][$_\-\d\p{L}]*' expected but `[' found
+USER	wlu dcm	1	END	1489030487727	1489030496047
